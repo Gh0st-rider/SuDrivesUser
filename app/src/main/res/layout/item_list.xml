@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/user_bookings_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:background="@color/bg_color"
+        android:fitsSystemWindows="true">
+
+        <include
+            android:id="@+id/tool_bar"
+            layout="@layout/tool_bar"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/rl_active"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tool_bar">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_user_history"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical" />
+
+            <TextView
+                android:id="@+id/tv_my_bookings_active_no_data_found"
+                android:fontFamily="@font/montserrat_regular"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="56dp"
+                android:gravity="center"
+                android:paddingBottom="@dimen/margin_5"
+                android:text="@string/no_data_found"
+                android:textColor="@android:color/black"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/error_layout"
+            layout="@layout/error_layout" />
+    </RelativeLayout>
+</layout>

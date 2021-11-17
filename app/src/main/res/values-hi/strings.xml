@@ -1,0 +1,561 @@
+<resources>
+    <string name="app_name">Su Drives</string>
+    <string name="title_activity_main_home">MainHomeActivity</string>
+    <string name="fb_key_hash_debug">ga0RGNYHvNM5d0SLGQfpQWAPGJ8=</string>
+    <string name="fb_key_hash_release">zY00cczs2SG28RTn1bZQvsCftvI=</string>
+
+    <string name="facebook_app_id">418594956056861</string>
+    <string name="fb_login_protocol_scheme">fb418594956056861</string>
+    <string name="google_api_keys">AIzaSyAVNsvTkS6bt2-q12RgQoL0S9g7o_VbxeQ</string>
+    <string name="direction_api_key">AIzaSyAVNsvTkS6bt2-q12RgQoL0S9g7o_VbxeQ</string>
+    <!-- <string name="direction_api_key">AIzaSyDjUNNn8S282Dw-eVJBtkZpj8kJyPv1rrU</string>-->
+    <!--<string name="direction_api_key"></string>-->
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hn">Hin</string>
+    <string name="en">En</string>
+    <string name="name">नाम</string>
+    <string name="mobile_no">मोबाइल नंबर</string>
+
+    <string name="country_code">+91</string>
+
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="home">होम</string>
+    <string name="livetrips">लाइव ट्रिप</string>
+
+    <string name="refer_n_win">भेजे और जीते</string>
+    <string name="contact_us">हमसे संपर्क करें</string>
+    <string name="about_us">हमारे बारे में</string>
+    <string name="promotions">प्रचार</string>
+    <string name="report_issue">रिपोर्ट की गई समस्या</string>
+    <string name="reported_issue">रिपोर्ट की गई समस्या</string>
+    <string name="rate_card">दर कार्ड</string>
+    <string name="logout">लोग आउट</string>
+    <string name="my_bookings">मेरी बुकिंग</string>
+    <string name="booking_history">बुकिंग इतिहास</string>
+    <string name="title_activity_home_menu">होम मेनू गतिविधि</string>
+
+    <string name="no_internet_connection">\"कोई इंटरनेट कनेक्शन नहीं\"</string>
+
+    <string name="Please_enter_email">ईमेल-आईडी दर्ज करें</string>
+
+    <string name="you_can_win_prizes">दोस्तों और परिवार को आमंत्रित करें</string>
+    <string name="win_first_trip_by_refering_the_refer_code">रेफ़र्ड प्राप्त करें और रेफरल कोड का उल्लेख करके पहली यात्रा पर इंगित करें!</string>
+    <string name="share_and_invite">शेयर और आमंत्रित करें</string>
+    <string name="your_referral_code">आपका रेफ़रल कोड</string>
+    <string name="share">शेयर</string>
+    <string name="share_using">का उपयोग कर शेयर करें</string>
+    <string name="referral_code">रेफरल कोड</string>
+    <!--Login-->
+    <string name="welcome">स्वागत हे!</string>
+    <string name="join_sign_in_using">का उपयोग कर शामिल हों / साइन इन करें</string>
+    <string name="enter_mobile_number">मोबाइल नंबर दर्ज करें</string>
+
+
+    <!--Register-->
+    <string name="first_name">पहला नाम</string>
+    <string name="last_name">अंतिम नाम</string>
+    <string name="register">रजिस्टर</string>
+    <string name="change">बदलना</string>
+
+    <!--Verify otp-->
+    <string name="otp">ओटीपी दर्ज करें</string>
+    <string name="verify">सत्यापित करें</string>
+    <string name="resend_otp">ओटीपी पुनः भेजें</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="email_address">ईमेल पता</string>
+    <string name="address">पता</string>
+    <string name="editProfile">प्रोफाइल</string>
+    <string name="by_logging_in_you_are_agreed_to_our">लॉग इन करके आप हमारी सेवाओं और गोपनीयता नीति की शर्तों पर सहमत हैं</string>
+    <string name="terms_of_services">सेवाओं की शर्तें</string>
+    <string name="Terms_of_services">सेवाओं की शर्तें</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="Privacy_policy">गोपनीयता नीति</string>
+    <string name="and">तथा</string>
+    <string name="here">यहाँ</string>
+    <string name="ok">ठीक</string>
+    <string name="cancel">रद्द करना</string>
+
+    <string name="would_you_like_for_your_purchase_to_be_reveiwed_for_a_free">क्या आप अपनी खरीद के लिए मुफ्त में समीक्षा करना चाहेंगे .....................................?</string>
+    <string name="confirmation">पुष्टीकरण</string>
+
+    <!-- Error Messages On Network-->
+    <string name="error_no_con_msg">कोई इंटरनेट कनेक्शन नहीं मिला, कृपया अपनी नेटवर्क सेटिंग्स जांचें।</string>
+    <string name="error_no_connection">कोई इंटरनेट कनेक्शन नहीं</string>
+    <string name="text_settings">इंटरनेट सेटिंग्स की जांच करें</string>
+    <string name="text_close">बंद करे</string>
+    <!--for Update App-->
+    <string name="english">english</string>
+    <string name="hindi">hindi</string>
+    <string name="gps_setting">जीपीएस सेटिंग्स है</string>
+    <string name="gps_is_not_enabled">जीपीएस सक्षम नहीं है। क्या आप सेटिंग्स मेनू पर जाना चाहते हैं?</string>
+    <string name="something_went_wrong">कुछ गलत हो गया है। कृपया बाद में दोबारा प्रयास करें।</string>
+    <string name="x">X</string>
+
+    <string name="not_Now">अभी नहीं</string>
+    <string name="update">अपडेट</string>
+    <string name="app_update">Application अपडेट !!!!!!</string>
+
+    <string name="Please_enter_mobile_num">कृपया मोबाइल नंबर दर्ज करें</string>
+    <string name="Please_enter_valid_mobile_num">कृपया वैध मोबाइल नंबर दर्ज करें</string>
+    <string name="location_sevice_not_active">स्थान सेवाएं सक्रिय नहीं हैं</string>
+    <string name="please_enable_location_services_and_gps">कृपया स्थान सेवाएं और जीपीएस सक्षम करें</string>
+    <string name="please_enable_location_services_and_gps_to_continue">कृपया continue रखने के लिए स्थान सेवाएँ और GPS सक्षम करें</string>
+
+    <string name="storage">भंडारण</string>
+    <string name="camera">कैमरा</string>
+    <string name="location">स्थान</string>
+    <string name="permission_rationale_storage">आपके संग्रहण से छवियों तक पहुंचने के लिए संग्रहण तक पहुंच आवश्यक है।</string>
+    <string name="permission_rationale_camera">नई छवियों को कैप्चर करने के लिए कैमरे तक पहुंच की आवश्यकता है।</string>
+    <string name="permission_rationale_location">मानचित्र पर अपना स्थान दिखाने के लिए स्थान तक पहुंच आवश्यक है।</string>
+    <string name="permission_denied">ऐप को अनुमति की आवश्यकता है। कृपया पुनः प्रयास करें और इसका उपयोग करने के लिए पहुंच प्रदान करें। \nअगर अनुमति स्थायी रूप से अस्वीकार कर दी गई है, तो इसे सिस्टम सेटिंग्स से सक्षम किया जा सकता है।</string>
+    <string name="permission_required_toast">%s ऐप उपयोग के लिए अनुमति की आवश्यकता है।</string>
+    <string name="No_Internet_Connection_Detected">कोई इंटरनेट कनेक्शन नहीं पता चला</string>
+    <string name="This_app_needs_phone_permission">इस ऐप को अनुमतियों की आवश्यकता है, कृपया सेटिंग्स की जांच करें।</string>
+    <string name="grant">GRANT</string>
+    <string name="enable">सक्षम करें</string>
+
+
+    // Type
+    <string name="business_usage">व्यापार उपयोग</string>
+    <string name="personal_usage">व्यक्तिगत उपयोग</string>
+    <string name="email_optional">ईमेल (वैकल्पिक)</string>
+    <string name="have_a_promo_code">क्या प्रोमो कोड है?</string>
+    <string name="have_a_referral_code">एक रेफरल कोड है?</string>
+
+    <string name="PromoCode">प्रचार कोड</string>
+
+    <string name="English">English</string>
+    <string name="Hindi">Hindi</string>
+    <string name="Hindi_in_hindi">हिंदी</string>
+
+    //Types
+    <string name="Please_enter_email_id">कृपया ईमेल आईडी दर्ज करें</string>
+    <string name="Please_enter_lname">कृपया अंतिम नाम दर्ज करें</string>
+    <string name="Please_enter_full_name">पूरा नाम दर्ज करें</string>
+    <string name="Please_enter_valid_email_id">कृपया वैध ईमेल आईडी दर्ज करें</string>
+    <string name="Please_enter_registered_email_id">कृपया पंजीकृत ईमेल आईडी दर्ज करें</string>
+    <string name="please_accept_terms_n_comditions">कृपया नियम और शर्तें स्वीकार करें</string>
+    <string name="title">Title</string>
+    <string name="full_name">नाम</string>
+    <string name="gender">जेंडर</string>
+    <string name="male">पुरुष</string>
+    <string name="female">महिला</string>
+    <string name="other">अन्य</string>
+
+
+    <!--Validation-->
+    <string name="Please_enter_otp">कृपया ओटीपी दर्ज करें</string>
+    <string name="Please_enter_valid_otp">कृपया वैध ओटीपी दर्ज करें</string>
+
+    <!-- home -->
+    <string name="book_now">अभी बुक करें</string>
+    <string name="book_later">बाद में बुक करें</string>
+    <string name="daily">रोज</string>
+    <string name="rental">किराये पर लेना</string>
+    <string name="outstation">आउटस्टेशन</string>
+    <string name="pin_location">पिकअप स्थान</string>
+    <string name="search_drop_location">खोज ड्रॉप स्थान</string>
+    <string name="surcharge">अधिभार</string>
+    <string name="booknow">अभी बुक करें</string>
+    <string name="payload">पेलोड</string>
+    <string name="lbh">lbh</string>
+    <string name="estimated_fare">अनुमानित किराया</string>
+
+    <string name="Please_select_gender">कृपया gender चुनें</string>
+
+    <string name="are_you_sure_want_to_logout">क्या आप लॉग आउट करना चाहते हैं?</string>
+    <string name="location_not_supported"> स्थान इस डिवाइस में समर्थित नहीं है</string>
+    <string name="location_not_enabled">स्थान सक्षम नहीं है!</string>
+    <string name="open_location_settings">स्थान सेटिंग खोलें</string>
+    <string name="Cancel">रद्द करना</string>
+
+    <string name="save">बचाना</string>
+
+    <string name="alert">चेतावनी</string>
+    <string name="allow_asked_permission_to_make_this_work">इस काम को करने के लिए अनुमतियों को अनुमति दें। आगे बढ़ने के लिए शुरू करें क्लिक करें।</string>
+    <string name="begin">शुरू</string>
+    <string name="take_picture">तस्वीर ले लो</string>
+    <string name="gallery">गेलरी</string>
+    <string name="not_available">उपलब्ध नहीं है</string>
+    <string name="profile">प्रोफाइल</string>
+    <string name="no_data_found">कोई डेटा नहीं मिला</string>
+    <!--ContactUs-->
+    <string name="CallUs">हमें कॉल करें:</string>
+    <string name="EmailUs">हमे ईमेल करे :</string>
+    <string name="Website">वेबसाइट :</string>
+    <string name="enter_origin">पिक अप स्थान दर्ज करें</string>
+    <string name="enter_destination">गंतव्य दर्ज करें</string>
+    <string name="status">स्थिति</string>
+    <string name="date">दिनांक</string>
+    <string name="pick_up_date">पिक अप दिनांक</string>
+    <string name="amount">राशि</string>
+    <string name="booking_id">ट्रिप आईडी:</string>
+    <string name="truck_type">ट्रक का प्रकार</string>
+    <string name="Please_select_the_options">कृपया विकल्प का चयन करें</string>
+    <string name="time">समय</string>
+    <string name="booking_details">बुकिंग विवरण</string>
+    <string name="cancel_bookings">बुकिंग रद्द करें</string>
+    <string name="cancel_booking">बुकिंग रद्द करें</string>
+
+    <!-- Promotions -->
+    <string name="valid_until">तब तक वैध</string>
+    <string name="can_be_used">इस्तेमाल किया जा सकता है</string>
+    <string name="times">टाइम्स</string>
+    <string name="rides">सवारी</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_cras_sit_amet_elementum_lectus_cras_pellentesque_mi_sapien_sit_amet_tristique_turpis_aliquet_sed">1. लोअर इप्सम डोलर एटेट, एक्टिविटी एलीपिसिंग एलिट। 1. लोअर इप्सम डोलर एटेट, एक्टिविटी एलीपिसिंग एलिट। 1. लोअर इप्सम डोलर एटेट, एक्टिविटी एलीपिसिंग एलिट । 3. सित एटेट ट्रिस्टिक तुर्पिस अलिकुएत सेद । 3. सित एटेट ट्रिस्टिक तुर्पिस अलिकुएत सेद । 3. सित एटेट ट्रिस्टिक तुर्पिस अलिकुएत सेद । 3. सित एटेट ट्रिस्टिक तुर्पिस अलिकुएत सेद ।</string>
+    <string name="tncapplied">*टी एंड सी एप्लाइड</string>
+    <string name="today">आज</string>
+    <!--  Booking detail-->
+    <string name="fare_break_up">फेयर ब्रेक-अप</string>
+    <string name="cancellation_charger">रद्दीकरण शुल्क:</string>
+    <string name="total_charges">कुल शुल्क :</string>
+    <string name="vehical_name">वाहन का नाम</string>
+    <string name="pick_up">पिक अप</string>
+    <string name="drop_off">ड्रोप ओफ्फ</string>
+    <string name="booking_Details">बुकिंग विवरण</string>
+    <string name="accepted">स्वीकार किए जाते हैं</string>
+    <string name="trip_start">यात्रा शुरू करें</string>
+    <string name="completed">पूरा कर लिया है</string>
+    <string name="cancelled">रद्द</string>
+    <string name="pending">अपूर्ण</string>
+    <string name="trip_id">ट्रिप आईडी</string>
+    <string name="upcoming_bookings">आगामी बुकिंग</string>
+    <string name="past_bookings">पिछली बुकिंग</string>
+    <!--   Cancel order-->
+    <string name="error_msg_enter_comment">कृपया टिप्पणी दर्ज करें</string>
+    <string name="any_comment">टिप्पणी</string>
+    <string name="submit">जमा करें</string>
+    <string name="Please_select_the_atleast_1_option">कृपया कम से कम 1 विकल्प का चयन करें</string>
+
+
+    <!-- Notification -->
+    <string name="notifications">सूचनाएं</string>
+    <string name="clear_all">साफ करें</string>
+    <string name="are_you_sure_you_want_to_clear_all_notification">क्या आप वाकई सभी अधिसूचनाएं हटाना चाहते हैं?</string>
+    <string name="your_booking_Successful">आपकी बुकिंग सफल है</string>
+    <string name="description">विवरण</string>
+
+    <!--Confirm Pickup-->
+
+    <string name="you_are_near_a_pickup_spot">आप पिकअप स्पॉट के पास हैं</string>
+
+    <string name="card">कार्ड</string>
+    <string name="cash">कैश</string>
+
+    <string name="payment_options">भुगतान विकल्प</string>
+    <string name="confirm_pickup">पिकअप की पुष्टि करें</string>
+    <string name="cancel_order">ट्रिप रद्द करें</string>
+    <string name="googleplay_service_not_avalaible">Google play सेवा उपलब्ध नहीं है</string>
+    <string name="your_ride_has_been_scheduled"><b>सवारी शेड्यूल </b> \ n \ n आपकी राइड शेड्यूल की गई है। ड्राइवर विवरण आपके पिकअप समय से पहले 15 मिनट भेजा जाएगा।। \n\n\nहमें चुनने के लिए धन्यवाद!</string>
+    <string name="coming_soon">जल्द आ रहा है</string>
+
+    <string name="no_just_exit">नहीं, बस बाहर निकलें</string>
+    <string name="enable_gps">जीपीएस सक्षम करें</string>
+    <string name="no_cab_available">कोई कैब उपलब्ध नहीं है</string>
+    <string name="no_auto_available">कोई ऑटो उपलब्ध नहीं है</string>
+    <string name="please_enter_pick_up_location">कृपया पिक-अप स्थान दर्ज करें</string>
+
+    <string name="fare_detail">किराया विवरण</string>
+    <!--    Rating-->
+    <string name="tell_us_something">हमें कुछ बताओ!</string>
+    <string name="rate_the_driver">ड्राइवर को रेट करें</string>
+    <string name="share_your_trip_experience_with_us">हमारे साथ अपने यात्रा अनुभव शेयर करें!</string>
+    <string name="please_add_rating">कृपया रेटिंग जोड़ें</string>
+    <string name="share_your_experience">अपना अनुभव शेयर करें</string>
+    <string name="trip_complete">यात्रा पूर्ण</string>
+    <!--  <string name="to">सेवा मेरे</string>-->
+    <string name="booking_ID">बुकिंग आईडी</string>
+    <string name="done">किया हुआ</string>
+    <string name="payable">देय</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="please_enter_drop_off_location">कृपया ड्रॉप-ऑफ स्थान दर्ज करें</string>
+
+    <!--   Live Trip-->
+    <string name="call_driver">कॉल ड्राइवर</string>
+    <string name="vehical_num">वाहन संख्या</string>
+    <string name="eta">अपेक्षित समय</string>
+    <string name="otp_">ओटीपी:</string>
+    <string name="total_fare">कुल किराया</string>
+    <string name="total_distance">कुल दूरी</string>
+    <string name="livetrip">लाइव ट्रिप</string>
+    <string name="ride_scheduled">राइड शेड्यूल</string>
+
+    <!--ReportIssue-->
+    <string name="phone">फ़ोन</string>
+    <string name="email">ईमेल</string>
+    <string name="Optional"> (वैकल्पिक)</string>
+    <string name="Upload_a_picture">एक तस्वीर अपलोड करें</string>
+    <string name="please_explain_your_issue_here">कृपया अपनी समस्या यहां बताएं ...</string>
+    <string name="Comments_Questions">मुद्दा बताएं</string>
+    <string name="topic">कारण का चयन करें</string>
+    <string name="select">चुनते हैं</string>
+    <string name="please_select_topic">विषय का चयन करें</string>
+    <string name="Please_enter_comment">कृपया टिप्पणी दर्ज करें</string>
+    <string name="transaction_id">लेनदेन आईडी</string>
+    <string name="order_id">ऑर्डर आईडी</string>
+    <string name="report_issue_summary">रिपोर्ट समस्या सारांश</string>
+    <string name="refund">धन की वापसी</string>
+
+    <!--  Help Dialog-->
+    <string name="enable_emergency_mode">आपातकालीन मोड \nसक्षम करें</string>
+    <string name="send_ride_status">सवारी की स्थिति \nभेजना</string>
+    <string name="send_ride_status1">सवारी की स्थिति भेजना</string>
+
+    <string name="authentication_failed">प्रमाणीकरण विफल होना</string>
+    <string name="error_in_loading_page">पेज लोड करने में त्रुटि</string>
+    <string name="transaction_cancelled">लेनदेन रद्द कर दिया गया</string>
+    <string name="ongoing">यात्रा चल रहा है</string>
+
+    <!--  Send  Ride Status-->
+    <string name="add_emergency_contacts">आपातकालीन संपर्क जोड़ें</string>
+    <string name="or_send_directly">या सीधे भेजें</string>
+    <string name="contacts">संपर्क</string>
+    <string name="type_a_name_or_mobile_number">एक नाम या मोबाइल नंबर टाइप करें</string>
+    <string name="add_contact">संपर्क जोड़ें</string>
+
+    <string name="getting_location">स्थान प्राप्त करना</string>
+    <string name="please_wait">कृपया प्रतीक्षा करें</string>
+    <string name="send">भेजना</string>
+
+    <!-- thank you screen-->
+    <string name="thank_you">धन्यवाद</string>
+    <string name="please_visit_again">कृपया फिर से कैब को ले जाएं!</string>
+
+    <string name="call_to">कॉल करने के लिए</string>
+    <string name="call">कॉल</string>
+    <string name="sorry_contact_number_not_available">माफ़ कीजिये! संपर्क संख्या उपलब्ध नहीं है</string>
+    <string name="gmail_app_is_not_installed">जीमेल ऐप स्थापित नहीं है</string>
+
+    <!-- Terms Of Use -->
+
+    <string name="copy_code">कॉपी कोड</string>
+    <string name="referral">रेफरल</string>
+    <string name="copied_to_clipboard">कूपन क्लिपबोर्ड पर कॉपी किया गया</string>
+    <string name="copied">यह आपकी अगली सवारी पर ऑटो लागू होगा।</string>
+    <string name="terms_of_use">उपयोग की शर्तें</string>
+    <string name="coupon_code">कूपन कोड</string>
+
+    <string name="terms_and_condition">नियम एवं शर्तें</string>
+
+    <string name="cancel_booking_text">बुकिंग रद्द करें</string>
+    <string name="Searching">खोज कर</string>
+    <string name="are_you_sure_you_want_to_cancel_the_booking">क्या आप वाकई बुकिंग रद्द करना चाहते हैं?</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="your_trip_has_been_auto_cancel">आपकी यात्रा ऑटो रद्द कर दी गई है।</string>
+    <string name="auto_cancelled">ऑटो रद्द कर दिया गया</string>
+    <string name="please_select_contact_number">कृपया संपर्क नंबर का चयन करें</string>
+    <string name="please_add_contact_number">कृपया मोबाइल नंबर जोड़ें</string>
+    <string name="no_trips">कोई यात्रा नहीं</string>
+    <string name="no_ride_available_to_send_ride_status">सवारी स्थिति भेजने के लिए कोई सवारी उपलब्ध नहीं है</string>
+    <string name="no_ride_started_to_send_ride_status">सवारी की स्थिति भेजने के लिए कोई सवारी शुरू नहीं हुई</string>
+
+    <string name="use_code">कोड का प्रयोग करें</string>
+    <string name="you_can_select_max_3_contacts">आप केवल अधिकतम 3 संपर्क चुन सकते हैं</string>
+    <string name="unable_to_fetch_contact_list">संपर्क सूची लाने में असमर्थ</string>
+    <string name="press_again_to_exit">बाहर निकलने के लिए कृपया फिर से दबाएं।</string>
+    <string name="please_select_valid_time">कृपया वैध समय का चयन करें</string>
+    <string name="booking_cant_be_done">यदि आप बाद में बुक चुन रहे हैं तो बुकिंग 4 घंटों से पहले नहीं की जा सकती है।</string>
+    <string name="booking_cant_be_done_before_1_hour">यदि आप बाद में बुक चुन रहे हैं तो बुकिंग 3 घंटों से पहले नहीं की जा सकती है।</string>
+
+    <!--confirm your booking-->
+    <string name="vehicle_details">वाहन की सूचना</string>
+    <string name="leave_on">जाने की तारीख</string>
+    <string name="one_way_trip_of_about">एक तरफ की यात्रा के बारे में</string>
+    <string name="round_trip_of_about">राउंड ट्रिप के बारे में</string>
+    <string name="Estimated_fare">अनुमानित \ n किराया</string>
+    <string name="hide_fare_detalis">किराया विवरण छुपाएं</string>
+    <string name="base_fare">बुनियादी भाड़ा</string>
+    <string name="confirm_your_booking">अपनी बुकिंग की पुष्टि करें</string>
+    <string name="confirm_book">पुष्टि करें और बुक करें</string>
+    <string name="taxes_fees">कर एवं शुल्क</string>
+    <string name="driver_allowance">ड्राइवर भत्ता</string>
+    <string name="see_fare_details">किराया विवरण देखें</string>
+
+    <string name="fare">किराया</string>
+
+    <!--Refund-->
+    <string name="type_here">यहा लिखो</string>
+    <string name="transaction_amount">लेन - देन की राशि</string>
+    <string name="comment_your_issue">अपनी समस्या पर टिप्पणी करें ...</string>
+    <string name="refund_request">धनवापसी का अनुरोध</string>
+    <string name="please_enter_order_id">कृपया ट्रिप आईडी दर्ज करें</string>
+    <string name="please_enter_transaction_id">कृपया लेनदेन आईडी दर्ज करें</string>
+    <string name="please_select_date"> कृपया तिथि का चयन करें</string>
+    <string name="please_transaction_amount">कृपया लेनदेन राशि दर्ज करें</string>
+
+    <string name="Business_Usage">Business_Usage</string>  <!--//Value of Usage do not change in hindi( value to post on server)-->
+    <string name="Personal_Usage">Personal_Usage</string><!--//Value of Usage do not change in hindi( value to post on server)-->
+
+    <string name="failure">असफलता</string>
+
+    <string name="you_have_already_used_this_coupon">आप पहले ही इस कूपन का इस्तेमाल कर चुके हैं</string>
+    <string name="ride_fare">सवारी करें:</string>
+    <string name="discount_price">डिस्काउंट मूल्य :</string>
+
+
+    <string name="please_login_to_continue">जारी रखने के लिए कृपया लॉग इन करें</string>
+    <string name="continue_in_both_lang">Continue / आगे बढ़ें</string>
+
+    <string name="ride_accepted">सवारी स्वीकार की गई</string>
+    <string name="your_ride_is_on_its_way">आपकी सवारी रास्ते में है।</string>
+    <string name="wallet">बटुआ</string>
+    <string name="please_choose_payment_option_to_continue">जारी रखने के लिए कृपया भुगतान विकल्प "कार्ड/कैश" चुनें</string>
+    <string name="continue_">बुक करें</string>
+    <string name="select_date_and_time">दिनांक और समय का चयन करें</string>
+    <string name="rent_a_car">कार किराए पर लें</string>
+    <string name="accept_and_confirm">स्वीकार करें और पुष्टि करें></string>
+    <string name="choose_cab_type">एक टैक्सी प्रकार चुनें</string>
+    <string name="pickup_location">उठाने की जगह</string>
+    <string name="select_package">पैकेज का चयन करें</string>
+
+    <string name="return_by">वापसी की तारीख</string>
+    <string name="round_trip">राउंड ट्रिप</string>
+    <string name="one_way">एक रास्ता</string>
+
+    <string name="book_your_outstation_ride">अपनी बाहरी यात्रा बुक करें</string>
+    <string name="finding_a_ride">यात्रा ढूँढना</string>
+    <string name="searching_for_rentals">किराये की तलाश...</string>
+    <string name="taxes">टैक्स</string>
+
+    <string name="selected_package">चयनित पैकेज</string>
+    <string name="please_select_leave_date_first">कृपया पहले पिकअप तिथि चुनें</string>
+    <string name="please_select_package">कृपया पैकेज/कैब टाइप चुनें</string>
+    <string name="please_select_cab_type">कृपया कैब टाइप चुनें</string>
+
+    <string name="please_select_leave_date">कृपया पिकअप की तारीख चुनें</string>
+    <string name="please_select_return_date">कृपया वापसी तिथि चुनें</string>
+    <string name="night_charges">रात का चार्ज</string>
+    <string name="na">NA</string>
+    <string name="booking_cant_be_done_before_2_hour">बुकिंग पिकअप के समय से 1 घंटे बाद की जा सकती है</string>
+    <string name="download_invoice">इनवाइस को डाउनलोड करो</string>
+    <string name="email_invoice">ईमेल चालान</string>
+    <string name="sorry_no_file_attached">माफ़ कीजिये! कोई फ़ाइल संलग्न नहीं है</string>
+    <string name="are_you_sure_you_want_to_email_invoice">क्या आप वाकई इनवॉइस ईमेल करना चाहते हैं?</string>
+    <string name="no_email_id_available">कोई ईमेल उपलब्ध नहीं है</string>
+    <string name="sgst_tax">एस.जी.एस.टी. :</string>
+    <string name="cgst_tax">सी.जी.एस.टी. :</string>
+    <string name="cancellation_charges">रद्दीकरण राशि</string>
+    <string name="searching_for_drivers">खोज रहै</string>
+    <string name="auto">ऑटो</string>
+    <string name="cabs">कैब</string>
+    <string name="ett">अपेक्षित समय </string>
+    <string name="permission_needed_to_continue">जारी रखने के लिए आवश्यक अनुमतियाँ चाहिए</string>
+    <string name="estimated_cash_to_be_paid">अदा की जाने वाली अनुमानित राशि</string>
+    <string name="waiting_fee">यात्रा शुरू होने के 3 मिनट बाद से 3/मिनट प्रतीक्षा शुल्क लागू होता है।</string>
+    <string name="confirm_booking">बुकिंग की पुष्टि करें</string>
+    <string name="booking_confirmed">निश्चित आरक्षण</string>
+    <string name="setup_payment">भुगतान सेट करें</string>
+    <string name="Please_enter_gst_no">कृपया GSTN दर्ज करें</string>
+    <string name="fetching_estimated_fare">अनुमानित किराया प्राप्त करने के लिए, कृपया वाहन का प्रकार फिर से चुनें या अपना पता अपडेट करें</string>
+    <string name="please_select_vehicle_type">कृपया वाहन का प्रकार चुनें</string>
+    <string name="server_error">Server Error</string>
+    <string name="booking_not_accepted_by_driver">ड्राइवर द्वारा बुकिंग स्वीकार नहीं की गई</string>
+    <string name="text_close_app">ऐप बंद करें</string>
+    <string name="payment_failed">भुगतान असफल हुआ</string>
+    <string name="txt_invalid_date">अमान्य वापसी दिनांक</string>
+    <string name="txt_invalid_time">अमान्य समय</string>
+    <string name="install_app">एप्लिकेशन इंस्टॉल करें</string>
+    <string name="install">इंस्टॉल करें</string>
+    <string name="app_is_not_currently_installed">वर्तमान में ऐप इंस्टॉल नहीं है, क्या आप इसे इंस्टॉल करना चाहेंगे?</string>
+    <string name="oops_you_dont_have_any_live_trip">ऊप्स! आपके पास कोई लाइव ट्रिप नहीं है।</string>
+    <string name="resend_otp_in">फिर से एसएमएस भेजें </string>
+    <string name="sec">सेकंड</string>
+    <string name="otp_sent">OTP भेजा गया</string>
+    <string name="txt_choose_language">Choose Language / भाषा चुनें</string>
+    <string name="txt_you_can_change_the_language_later">आप बाद में "मेनू" से भाषा बदल सकते हैं</string>
+    <string name="select_state">राज्य चुनें</string>
+    <string name="select_city">शहर चुनें</string>
+    <string name="Please_select_state">कृपया राज्य चुनें</string>
+    <string name="Please_select_city">कृपया शहर चुनें</string>
+    <string name="state">राज्य</string>
+    <string name="city">शहर</string>
+
+    <string name="toolbar_my_booking">मेरी बुकिंग</string>
+    <string name="no_past_booking">माफ़ करना ! कोई पिछला बुकिंग इतिहास नहीं</string>
+    <string name="no_upcoming_booking">माफ़ करना ! कोई आगामी बुकिंग \n कृपया पहले सवारी लें</string>
+
+
+    <string name="toolbar_wallet">मेरा बटुआ</string>
+    <string name="add_money_to_wallet">वॉलेट में पैसे जोड़ें</string>
+
+
+    <string name="my_transactions">मेरे लेन-देन</string>
+
+    <string name="debit_card">डेबिट कार्ड</string>
+
+    <string name="credit_card">क्रेडिट कार्ड</string>
+
+    <string name="no_transaction">माफ़ करना ! कोई लेनदेन उपलब्ध नहीं है</string>
+
+    <string name="toolbar_payment">वॉलेट में पैसे जोड़ें</string>
+
+    <string name="my_wallet">मेरा बटुआ संतुलन</string>
+
+    <string name="enter_amount">राशी डालें</string>
+
+    <string name="have_a_promocode">क्या प्रोमो कोड है?</string>
+
+
+    <string name="credit_debit_card">क्रेडिट / डेबिट कार्ड</string>
+
+    <string name="card_no">कार्ड नंबर।</string>
+
+    <string name="cvv_security_code">सीवीवी / सुरक्षा कोड</string>
+
+
+    <string name="save_this_card_for_faster_checkout">सहेजें और कार्ड के माध्यम से भुगतान करें</string>
+
+    <string name="add_money">पैसे जोड़ें</string>
+
+    <string name="other_payment_options">अन्य भुगतान विकल्प :</string>
+
+    <string name="saved_cards">सहेजे गए कार्ड</string>
+    <string name="paypal">Paypal</string>
+    <string name="internet_banking">इंटरनेट बैंकिंग</string>
+
+    <string name="bt_card_number_required">कार्ड नंबर आवश्यक है</string>
+    <string name="bt_card_number_invalid">कार्ड नंबर अमान्य है</string>
+
+
+    <string name="bt_cvv">सीवीवी</string>
+    <string name="bt_cvc">सीवीसी</string>
+    <string name="bt_cid">सीआईडी</string>
+    <string name="bt_cvn">CVN</string>
+
+    <string name="toolbar_about">हमारे के बारे में</string>
+    <string name="toolbar_contact">संपर्क करें</string>
+    <string name="toolbar_coupon">उपलब्ध कूपन</string>
+    <string name="toolbar_discount">बुकिंग पर छूट</string>
+    <string name="toolbar_promotion">पदोन्नति</string>
+    <string name="toolbar_report_list">आपकी रिपोर्ट्स सूची</string>
+
+    <string name="no_coupon">माफ़ करना ! कोई ऑफ़र कूपन उपलब्ध नहीं है</string>
+
+    <string name="no_promo">माफ़ करना ! कोई प्रोमो ऑफर उपलब्ध नहीं है</string>
+
+
+    <string name="emergency_contact">सु ड्राइव सपोर्ट ?</string>
+
+    <string name="nav_offers">प्रस्ताव</string>
+
+    <string name="are_your_sure_you_want_to_exit">क्या आप निश्चित हैं आपकी बाहर निकलने की इच्छा है?</string>
+
+    <string name="cancel_search_cab">खोज रद्द करें!</string>
+
+    <string name="click_to_read">हमारी पॉलिसी पढ़ने के लिए क्लिक करें</string>
+
+    <string name="text_home">घर का पता</string>
+    <string name="text_office">कार्यालय का पता</string>
+
+    <string name="hint_home">घर का स्थान निर्धारित करें</string>
+    <string name="hint_office">कार्यालय का स्थान निर्धारित करें</string>
+
+    <string name="recent_search">हाल की खोज</string>
+    <string name="login_welcome">हमारा मुख्य उद्देश्य सवारिओ का अधिक से अधिक समय व धन की बचत करने का है। हम आपकी सेवा में सदैव तत्पर है।</string>
+
+</resources>

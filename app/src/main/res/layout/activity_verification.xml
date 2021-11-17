@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix">
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/ll_verification"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_350sdp"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/card_icon_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/_40sdp"
+                        app:cardCornerRadius="@dimen/_10sdp"
+                        app:cardUseCompatPadding="true">
+
+
+                        <ImageView
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_centerInParent="true"
+                            android:padding="@dimen/_5sdp"
+                            android:src="@drawable/app_logo" />
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/card_icon_login"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:src="@drawable/car_login" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:text="Be our user and enjoy rides and other benefits."
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                </RelativeLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/ll_verification"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_12sdp"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:background="@android:color/transparent"
+                            android:text="Please verify the OTP sent"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="normal"/>
+
+                        <TextView
+                            android:id="@+id/tv_mobile_no"
+                            android:textSize="@dimen/_12sdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="@string/mobile_no"
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="normal"/>
+
+
+
+                        <com.mukesh.OtpView
+                            android:id="@+id/otp_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:layout_marginStart="@dimen/_20sdp"
+                            android:layout_marginEnd="@dimen/_20sdp"
+                            android:imeOptions="actionDone"
+                            android:inputType="numberPassword"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:padding="@dimen/margin_5"
+                            android:textColor="@color/colorGrayDark"
+                            android:textColorHint="@color/colorGrayLight"
+                            app:length="6"
+                            app:space="1dp"
+                            app:width="30dp" />
+
+                        <Button
+                            android:id="@+id/btn_Verify"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_45"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:layout_marginLeft="@dimen/margin_30"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:layout_marginRight="@dimen/margin_30"
+                            android:background="@color/colorPrimaryDark"
+                            android:gravity="center"
+                            android:text="@string/verify"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorWhite" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/margin_5"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvResendOtp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:gravity="center"
+                                android:textSize="@dimen/_12sdp"
+                                android:paddingTop="@dimen/margin_10"
+                                android:paddingBottom="@dimen/margin_10"
+                                android:text="@string/resend_otp"
+                                android:textColor="@color/colorGrayLight" />
+
+
+                            <TextView
+                                android:id="@+id/tvResendOtpIn"
+                                android:textSize="@dimen/_10sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:gravity="center"
+                                android:visibility="gone"
+                                android:text="@string/resend_otp_in"
+                                android:textColor="@color/colorGrayLight" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+        <include
+            android:id="@+id/error_layout"
+            layout="@layout/error_layout" />
+    </RelativeLayout>
+</layout>
+
+
+
+
+
+
+

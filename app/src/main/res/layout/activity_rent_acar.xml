@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/rl_rent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:fitsSystemWindows="true">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+            <include
+                android:id="@+id/tool_bar_rent"
+                layout="@layout/tool_bar" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tool_bar_rent"
+                android:fillViewport="true"
+
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_color"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorWhite"
+                        android:elevation="@dimen/margin_2"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/margin_20"
+                        android:paddingRight="@dimen/margin_10">
+
+                        <TextView
+                            android:id="@+id/tv_pickup_loc"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_10sdp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="@dimen/margin_5"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:layout_marginRight="@dimen/margin_2"
+                            android:gravity="center_vertical"
+                            android:paddingTop="@dimen/margin_2"
+                            android:paddingBottom="@dimen/margin_5"
+                            android:text="@string/pickup_location"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorGrayLight"
+                            android:textStyle="normal"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/tv_pickup_loc_val"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="@dimen/margin_5"
+                            android:layout_marginTop="@dimen/margin_1"
+                            android:layout_marginRight="@dimen/margin_2"
+                            android:layout_marginBottom="@dimen/margin_10"
+                            android:ellipsize="end"
+                            android:textSize="@dimen/_10sdp"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:gravity="center_vertical"
+                            android:maxLines="2"
+                            android:paddingBottom="@dimen/margin_3"
+                            android:text=""
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorGrayDark"
+                            android:textStyle="normal"
+                            android:visibility="visible" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llSelectedPackage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_2"
+                        android:animateLayoutChanges="true"
+                        android:background="@color/colorWhite"
+                        android:elevation="@dimen/margin_2"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/margin_15"
+                        android:paddingRight="@dimen/margin_10">
+
+                        <TextView
+                            android:id="@+id/tv_select_package"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/_12sdp"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:layout_marginRight="@dimen/margin_2"
+                            android:layout_marginBottom="@dimen/margin_10"
+                            android:gravity="center_vertical"
+                            android:paddingBottom="@dimen/margin_3"
+                            android:text="@string/select_package"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="normal"
+                            android:visibility="visible" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_package"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_5"
+                            android:layout_marginRight="@dimen/margin_5"
+                            android:layout_marginBottom="@dimen/margin_5"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llChooseCab"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_2"
+                        android:animateLayoutChanges="true"
+                        android:background="@color/colorWhite"
+                        android:elevation="@dimen/margin_2"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/margin_15"
+                        android:paddingRight="@dimen/margin_10"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tv_select_cabType"
+                             android:textSize="@dimen/_12sdp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:layout_marginRight="@dimen/margin_2"
+                            android:gravity="center_vertical"
+                            android:paddingTop="@dimen/margin_2"
+                            android:paddingBottom="@dimen/margin_5"
+                            android:text="@string/choose_cab_type"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="bold"
+                            android:visibility="visible" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_cab_type"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_5"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:layout_marginRight="@dimen/margin_5"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_2"
+                        android:background="@color/colorWhite"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding_10">
+
+                        <TextView
+                            android:id="@+id/tvPaymentOption"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_15"
+                            android:layout_marginRight="@dimen/margin_2"
+                            android:text="@string/payment_options"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/_12sdp" />
+
+                        <RelativeLayout
+                            android:id="@+id/rlsourceLocation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_15"
+                            android:orientation="vertical"
+                            android:visibility="visible">
+
+                            <include
+                                android:id="@+id/layoutPaymentType"
+                                layout="@layout/layout_confirm_pickup">
+
+                            </include>
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20"
+                            android:layout_marginRight="@dimen/margin_2"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <RadioGroup
+                                android:id="@+id/radiogroup"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/margin_5"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/rbOnline"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="@string/card"
+                                    android:textColor="@color/colorGrayDark"
+                                    android:textSize="@dimen/text_14" />
+
+                                <RadioButton
+                                    android:id="@+id/rbCash"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/margin_10"
+                                    android:text="@string/cash"
+                                    android:textColor="@color/colorGrayDark"
+                                    android:textSize="@dimen/text_14" />
+
+                                <RadioButton
+                                    android:id="@+id/rbWallet"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/margin_10"
+                                    android:text="@string/wallet"
+                                    android:textColor="@color/colorGrayDark"
+                                    android:textSize="@dimen/text_14" />
+
+                            </RadioGroup>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorWhite">
+
+                        <Button
+                            android:id="@+id/btnConfirmRental"
+                            android:layout_width="@dimen/_200sdp"
+                            android:layout_height="@dimen/_35sdp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="@dimen/margin_30"
+                            android:layout_marginTop="@dimen/margin_15"
+                            android:layout_marginRight="@dimen/margin_30"
+                            android:layout_marginBottom="@dimen/margin_10"
+                            android:background="@drawable/button_shap"
+                            android:textColor="@color/colorWhite"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:paddingLeft="@dimen/padding_10"
+                            android:paddingRight="@dimen/padding_10"
+                            android:text="@string/accept_and_confirm"
+                            android:textAllCaps="false"
+                            android:textSize="@dimen/text_16" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/error_layout"
+            layout="@layout/error_layout" />
+
+    </RelativeLayout>
+</layout>

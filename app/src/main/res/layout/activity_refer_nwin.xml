@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/rlmain_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+
+        <ImageView
+            android:id="@+id/ivReferLeft"
+            android:layout_width="@dimen/margin_40"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_40"
+            android:padding="@dimen/margin_5"
+            android:src="@mipmap/ic_launcher" />
+
+        <RelativeLayout
+            android:id="@+id/rlmain"
+            android:layout_below="@+id/ivReferLeft"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="@dimen/margin_5">
+
+
+                    <ImageView
+                        android:id="@+id/iv_ty_success"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/refer_earn" />
+
+
+                    <TextView
+                        android:id="@+id/tv_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_30"
+                        android:layout_marginTop="@dimen/margin_30"
+                        android:layout_marginRight="@dimen/margin_30"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:fontFamily="@font/montserrat_semibold"
+                        android:paddingBottom="@dimen/margin_10"
+                        android:text="@string/you_can_win_prizes"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/tv_please_visit_movecab_again"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_30"
+                        android:layout_marginRight="@dimen/margin_30"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:paddingBottom="@dimen/margin_5"
+                        android:text="@string/win_first_trip_by_refering_the_refer_code"
+                        android:textColor="@color/colorBlack"
+                        android:textStyle="normal" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/margin_45"
+                        android:layout_marginTop="@dimen/margin_20"
+                        android:background="@drawable/yellow_rec_round_border"
+                        android:layout_marginRight="@dimen/margin_45"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/margin_20"
+                        android:paddingRight="@dimen/margin_20"
+                        android:paddingBottom="@dimen/margin_5">
+
+                        <TextView
+                            android:id="@+id/tvRcText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20"
+                            android:layout_marginTop="@dimen/margin_15"
+                            android:layout_marginRight="@dimen/margin_20"
+                            android:gravity="center"
+                            android:fontFamily="@font/montserrat_regular"
+                            android:text="@string/your_referral_code"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/text_16" />
+
+                        <TextView
+                            android:id="@+id/tvrcCode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20"
+                            android:layout_marginRight="@dimen/margin_20"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:layout_marginBottom="@dimen/margin_10"
+                            android:gravity="top|center_horizontal"
+                            android:text="ASHU12345"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="@dimen/text_20" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/rlShare"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_70"
+                        android:layout_marginTop="@dimen/margin_40"
+                        android:layout_marginRight="@dimen/margin_70"
+                        android:background="@drawable/button_shap"
+                        android:gravity="center"
+                        android:padding="@dimen/margin_5">
+
+                        <ImageView
+                            android:id="@+id/ivReferral"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/margin_5"
+                            android:layout_marginRight="@dimen/margin_10"
+                            android:src="@drawable/share_filled_24dp"
+                            android:visibility="visible" />
+
+
+                        <TextView
+                            android:id="@+id/tvShare"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:textSize="@dimen/_12sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_toRightOf="@+id/ivReferral"
+                            android:gravity="center"
+                            android:paddingRight="15dp"
+                            android:singleLine="false"
+                            android:text="@string/refer_n_win"
+                            android:textColor="@color/colorWhite" />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/error_layout"
+            layout="@layout/error_layout" />
+    </RelativeLayout>
+</layout>

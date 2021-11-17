@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_20"
+    android:layout_marginBottom="@dimen/margin_20"
+    android:padding="3dp"
+    app:cardCornerRadius="@dimen/cardradius">
+
+    <RelativeLayout
+        android:id="@+id/dialog_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_5"
+        android:paddingRight="@dimen/padding_5"
+        android:paddingBottom="@dimen/padding_5">
+
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+           android:fontFamily="@font/montserrat_semibold"
+            android:textSize="@dimen/_12sdp"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/title"
+            android:textColor="@color/colorGrayDark"
+            android:textStyle="bold" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/options_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_tv"
+            android:layout_margin="@dimen/margin_3"
+            android:background="@color/colorWhite"
+            android:foregroundGravity="center"
+            android:scrollbars="vertical" />
+
+        <RelativeLayout
+            android:id="@+id/bottom_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/options_rv"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="@dimen/margin_3">
+
+            <Button
+                android:id="@+id/ok_btn"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="30dp"
+                android:background="@null"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textSize="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:textColor="@color/colorBlack"
+                android:layout_toStartOf="@+id/cancel_btn"
+                android:text="@string/ok" />
+
+            <Button
+                android:id="@+id/cancel_btn"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="30dp"
+                android:background="@null"
+                android:textSize="@dimen/_10sdp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textColor="@color/colorRed"
+                android:layout_alignParentEnd="true"
+                android:text="@string/cancel" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

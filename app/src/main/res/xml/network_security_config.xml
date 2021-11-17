@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">103.56.36.39</domain>
+        <domain includeSubdomains="true">admin.sudrives.com</domain>
+        <domain includeSubdomains="true">14.97.59.83</domain>
+        <domain includeSubdomains="true">152.67.31.61</domain>
+        <domain includeSubdomains="true">129.151.47.116</domain>
+        <domain includeSubdomains="true">129.151.46.196</domain>
+        <domain includeSubdomains="true">staging-admin.sudrives.com</domain>
+
+
+
+    </domain-config>
+</network-security-config>

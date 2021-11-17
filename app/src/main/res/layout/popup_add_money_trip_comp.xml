@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="@drawable/dialog_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:gravity="center"
+        android:text="You wallet balance is low, Please add money to wallet\n Thank You"
+        android:textColor="@color/colorGrayDark"
+        android:textSize="@dimen/_12sdp" />
+
+
+    <Button
+        android:id="@+id/btn_go_to_wallet"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@drawable/button_shap"
+        android:text="Add Money"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_12sdp" />
+
+</LinearLayout>

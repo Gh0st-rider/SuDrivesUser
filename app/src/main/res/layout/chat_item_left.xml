@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_8sdp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:src="@mipmap/ic_launcher" />
+
+
+
+    <TextView
+        android:id="@+id/show_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/profile_image"
+        android:background="@drawable/background_left"
+        android:lineSpacingExtra="2dp"
+        android:paddingStart="@dimen/_15sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingEnd="@dimen/_15sdp"
+        android:paddingBottom="@dimen/_8sdp"
+        android:text="Hi, How are you?"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_10sdp" />
+
+    <TextView
+        android:id="@+id/time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_below="@id/show_message"
+        android:layout_toEndOf="@+id/profile_image"
+        android:text=""
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/colorGrayDark"
+        android:textSize="@dimen/_6sdp" />
+
+</RelativeLayout>

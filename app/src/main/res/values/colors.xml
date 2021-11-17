@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#22769B</color>
+    <color name="colorPrimaryDark">#19546E</color>
+    <color name="colorAccent">#35B0E6</color>
+    <color name="drawable_grey">#C0C0C0</color>
+    <color name="white_light">#0bffffff</color>
+    <color name="black_light">#20000000</color>
+
+    <color name="colorYellow">#FFC107</color>
+    <color name="bg_color">#F2F3F5</color>
+    <color name="hover_yellow_light">#49f49817</color>
+    <color name="text_grey_light">#B7B7B7</color>
+    <color name="light_blue">#E6E6FF</color>
+    <color name="light_yellow">#EEE8AA</color>
+    <color name="translucent">#33000000</color>
+    <color name="background_clr">#F4F4F4</color>
+    <color name="notification_bg">#E4EDFE</color>
+    <color name="thanku">#2598e0</color>
+    <color name="notification_grey">#AEAEAE</color>
+    <color name="notification_time_grey">#9B9B9B</color>
+    <color name="notification_unread">#F0F1F3</color>
+    <color name="terms_privacy_clr">#6EDFFF</color>
+
+    <color name="dark_yellow">#F49818</color>
+    <color name="home_yellow">#EB921E</color>
+
+    <color name="colorGrayLight">#B3B3B3</color>
+    <color name="colorGrayDark">#4E4E4E</color>
+    <color name="colorBlack">#000000</color>
+    <color name="lightGreyBack">#FFEFF1F4</color>
+    <color name="colorGrayView">#DADADA</color>
+
+
+    <color name="colorGreen">#1FB125</color>
+
+    <color name="colorBack">#98E1FF</color>
+
+    <color name="colorRed">#DD1406</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="greenChat">#e0ffc6</color>
+
+    <color name="cash_color">#85bb65</color>
+
+</resources>

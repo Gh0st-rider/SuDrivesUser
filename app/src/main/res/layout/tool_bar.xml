@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_about"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:elevation="@dimen/margin_3"
+            android:theme="@style/ToolbarTheme"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <RelativeLayout
+                android:id="@+id/rl_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/ib_left"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/selector_header_grey"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/arrow_back_24dp"
+                    android:visibility="visible" />
+
+
+                <ImageButton
+                    android:id="@+id/ib_right_3"
+                    android:layout_width="37dp"
+                    android:layout_height="37dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@+id/ib_right_2"
+                    android:background="@drawable/selector_header_grey"
+                    android:paddingLeft="@dimen/padding_5"
+                    android:paddingTop="@dimen/padding_5"
+                    android:paddingRight="@dimen/padding_5"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/ic_launcher"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/ib_right_2"
+                    android:layout_width="@dimen/margin_40"
+                    android:layout_height="@dimen/margin_40"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@+id/ib_right_1"
+                    android:background="@drawable/selector_header_grey"
+                    android:paddingLeft="@dimen/padding_5"
+                    android:paddingTop="@dimen/padding_5"
+                    android:paddingRight="@dimen/padding_5"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/ic_launcher"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/tv_filter_icon_my_bookings"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:gravity="center"
+                    android:padding="@dimen/text_10"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/ib_right_1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@+id/tv_right"
+                    android:background="@drawable/selector_header_grey"
+                    android:padding="@dimen/margin_7"
+                    android:src="@drawable/notification_icon"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/ib_right_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@+id/tv_right"
+                    android:background="@drawable/selector_header_grey"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:paddingLeft="@dimen/padding_5"
+                    android:paddingTop="@dimen/padding_5"
+                    android:paddingRight="@dimen/padding_5"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:scaleType="center"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="32sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:gravity="center_vertical"
+                    android:paddingStart="@dimen/_40sdp"
+                    android:paddingEnd="@dimen/_2sdp"
+                    android:singleLine="true"
+                    android:text="@string/home"
+                    android:textColor="@color/colorGrayDark"
+                    android:textSize="@dimen/_12sdp" />
+
+
+                <TextView
+                    android:id="@+id/tv_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/selector_header_grey"
+                    android:ellipsize="middle"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorBlack"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tv_notification_badge"
+                    android:layout_width="19dp"
+                    android:layout_height="19dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/badge_circle"
+                    android:fontFamily="@font/montserrat_semibold"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_10"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+</layout>

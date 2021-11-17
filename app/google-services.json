@@ -1,0 +1,263 @@
+{
+  "project_info": {
+    "project_number": "133202334",
+    "firebase_url": "https://sudrives-9d1c0-default-rtdb.firebaseio.com",
+    "project_id": "sudrives-9d1c0",
+    "storage_bucket": "sudrives-9d1c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133202334:android:26fea4e16a0616a9d7168f",
+        "android_client_info": {
+          "package_name": "com.suDrives.userapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133202334-96qe827638c5d6tiqajc9gkara56ssi3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.suDrives.userapp",
+            "certificate_hash": "a0c6402f9761671c2d4752406531ce7920fe39ca"
+          }
+        },
+        {
+          "client_id": "133202334-pl575qenbq0c8sa44hghtm96o32itsgc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.suDrives.userapp",
+            "certificate_hash": "e0a7f8e7e17deb8a36f47dc4185a5570f7313bde"
+          }
+        },
+        {
+          "client_id": "133202334-4uu830u9g2gfuugpbuel2pkhc0vvluq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYt9eAy0IlpQzv04k0aHGJUoH70H0Gh7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133202334-4uu830u9g2gfuugpbuel2pkhc0vvluq5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "133202334-3pq1hekhc2l92u4kt7s39tjko28qs5u5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sudrives.sudrives"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133202334:android:011557ab71175436d7168f",
+        "android_client_info": {
+          "package_name": "com.sudrives.sudrives"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133202334-3jt5gcv55ts7eortd8jsibb66lbo96cb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudrives.sudrives",
+            "certificate_hash": "da0006fe88abd35c886e5fd1c18ff57f41cec549"
+          }
+        },
+        {
+          "client_id": "133202334-60907ei4lljpotcjq5s9r4k2q7lvr1nh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudrives.sudrives",
+            "certificate_hash": "4377f8ec011a4a875e007b4f5eea7e117ac50f49"
+          }
+        },
+        {
+          "client_id": "133202334-cd49gooou13qnp44ef2d7rigan21coij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudrives.sudrives",
+            "certificate_hash": "e7286e701167935f6f8d7aa6aa0ddbddb1551616"
+          }
+        },
+        {
+          "client_id": "133202334-d0lnebuhdk72h9c113cn4mlef0a6dgp8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudrives.sudrives",
+            "certificate_hash": "7c1a6942b62e73b902d3b4058692fbd9fa12a33f"
+          }
+        },
+        {
+          "client_id": "133202334-i3388cr7dpcku3ecmddu2a6kuio6k0f6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudrives.sudrives",
+            "certificate_hash": "ef86dd5a55bebd4de99a9578dd7fcbc831dfeee0"
+          }
+        },
+        {
+          "client_id": "133202334-kssaumg6cvfrbrm7pp7fi4kc6nfc9277.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudrives.sudrives",
+            "certificate_hash": "78e95c90a06521bea6a6d423d9c29155e1ce5d8c"
+          }
+        },
+        {
+          "client_id": "133202334-p4qvncd4pbic733iq2bka78atcbns1et.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudrives.sudrives",
+            "certificate_hash": "fd0e75526fb912d557aa6e1dfb4fbbde24d9f5aa"
+          }
+        },
+        {
+          "client_id": "133202334-ureu6miinmrldbtmiv47ie12mbdbneu9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudrives.sudrives",
+            "certificate_hash": "b3ad5c0024396c7854abe2e4b1a56fde4369b553"
+          }
+        },
+        {
+          "client_id": "133202334-4uu830u9g2gfuugpbuel2pkhc0vvluq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYt9eAy0IlpQzv04k0aHGJUoH70H0Gh7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133202334-4uu830u9g2gfuugpbuel2pkhc0vvluq5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "133202334-3pq1hekhc2l92u4kt7s39tjko28qs5u5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sudrives.sudrives"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133202334:android:d26f39e4c04f8230d7168f",
+        "android_client_info": {
+          "package_name": "com.sudrives.sudrivespartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133202334-0hdoro6qplgic4fjup3j26thtfmf1rdq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudrives.sudrivespartner",
+            "certificate_hash": "4377f8ec011a4a875e007b4f5eea7e117ac50f49"
+          }
+        },
+        {
+          "client_id": "133202334-0nv5i3742rf2sdhcku2c8h7eokv9sbt2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudrives.sudrivespartner",
+            "certificate_hash": "fd0e75526fb912d557aa6e1dfb4fbbde24d9f5aa"
+          }
+        },
+        {
+          "client_id": "133202334-1l58tgqgm4ah83qj3gjmtpqa3r4tgcda.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudrives.sudrivespartner",
+            "certificate_hash": "ef86dd5a55bebd4de99a9578dd7fcbc831dfeee0"
+          }
+        },
+        {
+          "client_id": "133202334-8gi0ea3n08pmot7e6d2cfn8rpsodce4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudrives.sudrivespartner",
+            "certificate_hash": "e7286e701167935f6f8d7aa6aa0ddbddb1551616"
+          }
+        },
+        {
+          "client_id": "133202334-d50b4qe417ovglhv8e6crkd3t1c6kq4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudrives.sudrivespartner",
+            "certificate_hash": "7c1a6942b62e73b902d3b4058692fbd9fa12a33f"
+          }
+        },
+        {
+          "client_id": "133202334-i1625g4vqq3hras5kajcdkh9qpt39rv9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudrives.sudrivespartner",
+            "certificate_hash": "a5692075b3a1a9210d8603f53526524ee47e0104"
+          }
+        },
+        {
+          "client_id": "133202334-mlpkoedr06r5ujvhomu4mp3nuu1h79s6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudrives.sudrivespartner",
+            "certificate_hash": "da0006fe88abd35c886e5fd1c18ff57f41cec549"
+          }
+        },
+        {
+          "client_id": "133202334-qtaapt94lcbncc4fdktjesi4sevhfcuo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudrives.sudrivespartner",
+            "certificate_hash": "b3ad5c0024396c7854abe2e4b1a56fde4369b553"
+          }
+        },
+        {
+          "client_id": "133202334-4uu830u9g2gfuugpbuel2pkhc0vvluq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYt9eAy0IlpQzv04k0aHGJUoH70H0Gh7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133202334-4uu830u9g2gfuugpbuel2pkhc0vvluq5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "133202334-3pq1hekhc2l92u4kt7s39tjko28qs5u5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sudrives.sudrives"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

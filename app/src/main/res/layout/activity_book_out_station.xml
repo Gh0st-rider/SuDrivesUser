@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/rl_outstation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:fitsSystemWindows="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_color">
+
+            <include
+                android:id="@+id/tool_bar_outstation"
+                layout="@layout/tool_bar" />
+
+            <ScrollView
+                android:id="@+id/sbOutStation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tool_bar_outstation"
+                android:fillViewport="true"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/lnr_outstation_location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_30"
+                        android:layout_marginTop="@dimen/margin_20"
+                        android:layout_marginEnd="@dimen/margin_2"
+                        android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/margin_65"
+                            android:orientation="vertical"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center">
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="@dimen/_8sdp"
+                                android:layout_height="@dimen/_8sdp"
+                                app:cardCornerRadius="@dimen/_4sdp"
+                                app:cardBackgroundColor="@color/colorGreen"
+                                app:cardUseCompatPadding="false"
+                                app:cardElevation="0dp"/>
+
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="@dimen/_20sdp"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:layout_marginBottom="@dimen/_2sdp"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@color/colorGrayDark"/>
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="@dimen/_8sdp"
+                                android:layout_height="@dimen/_8sdp"
+                                app:cardCornerRadius="@dimen/_4sdp"
+                                app:cardBackgroundColor="@color/colorRed"
+                                app:cardUseCompatPadding="false"
+                                app:cardElevation="0dp"/>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/margin_10"
+                            android:layout_marginEnd="@dimen/margin_15"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:textSize="@dimen/_10sdp"
+                                android:id="@+id/tv_originTrip"
+                                android:gravity="top"
+                                android:paddingBottom="@dimen/margin_5"
+                                android:singleLine="true"
+                                android:text="@string/enter_origin"
+                                android:textColor="@color/colorGrayDark" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/app_separator"
+                                android:background="@color/colorGrayView"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:visibility="invisible" />
+
+                            <TextView
+                                android:id="@+id/tv_destinationTrip"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:textSize="@dimen/_10sdp"
+                                android:gravity="bottom"
+                                android:singleLine="true"
+                                android:text="@string/enter_destination"
+                                android:textColor="@color/colorGrayDark" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/app_separator"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:layout_marginRight="@dimen/margin_20"
+                        android:layout_marginBottom="@dimen/margin_8"
+                        android:background="@color/colorGrayView"
+                        android:visibility="visible" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_10"
+                        android:background="@color/colorWhite"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvSelectDateTime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat_semibold"
+                            android:layout_marginStart="@dimen/margin_30"
+                            android:layout_marginEnd="@dimen/margin_2"
+                            android:paddingStart="@dimen/margin_5"
+                            android:paddingEnd="@dimen/_2sdp"
+                            android:text="@string/select_date_and_time"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/text_16" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_30"
+                            android:layout_marginEnd="@dimen/margin_2"
+                            android:orientation="horizontal">
+
+                            <RadioGroup
+                                android:id="@+id/radiogroup"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/margin_5"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/rbOneWay"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:fontFamily="@font/montserrat_regular"
+                                    android:text="@string/one_way"
+                                    android:textColor="@color/colorGrayDark"
+                                    android:textSize="@dimen/text_14" />
+
+                                <RadioButton
+                                    android:id="@+id/rbRoundTrip"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/montserrat_regular"
+                                    android:layout_marginStart="@dimen/margin_30"
+                                    android:text="@string/round_trip"
+                                    android:textColor="@color/colorGrayDark"
+                                    android:textSize="@dimen/text_14" />
+
+
+                            </RadioGroup>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_30"
+                            android:layout_marginTop="@dimen/margin_20"
+                            android:layout_marginRight="@dimen/margin_30"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/line" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_30"
+                            android:layout_marginTop="@dimen/margin_15"
+                            android:layout_marginRight="@dimen/margin_30"
+                            android:layout_marginBottom="@dimen/margin_5"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/tv_leaveon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat_semibold"
+                                android:textSize="@dimen/_12sdp"
+                                android:layout_centerVertical="true"
+                                android:gravity="center_vertical"
+                                android:paddingStart="@dimen/margin_5"
+                                android:paddingEnd="@dimen/_2sdp"
+                                android:paddingBottom="@dimen/margin_5"
+                                android:singleLine="true"
+                                android:text="@string/leave_on"
+                                android:textColor="@color/colorGrayLight" />
+
+                            <TextView
+                                android:id="@+id/tv_leaveon_val"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat_semibold"
+                                android:textSize="@dimen/_12sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="@dimen/margin_10"
+                                android:gravity="center_vertical"
+                                android:singleLine="true"
+                                android:text="@string/select"
+                                android:textColor="@color/colorBlack"
+                                android:textStyle="bold" />
+
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/llReturnBy"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_30"
+                            android:layout_marginRight="@dimen/margin_30"
+                            android:layout_marginBottom="@dimen/margin_10"
+                            android:animateLayoutChanges="true"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <TextView
+                                android:id="@+id/tv_returnby"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat_semibold"
+                                android:textSize="@dimen/_12sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:gravity="center_vertical"
+                                android:paddingStart="@dimen/margin_5"
+                                android:paddingEnd="@dimen/_2sdp"
+                                android:paddingBottom="@dimen/margin_5"
+                                android:singleLine="true"
+                                android:text="@string/return_by"
+                                android:textColor="@color/colorGrayLight" />
+
+                            <TextView
+                                android:id="@+id/tv_returnby_val"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat_semibold"
+                                android:textSize="@dimen/_12sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="@dimen/margin_10"
+                                android:gravity="center_vertical"
+                                android:singleLine="true"
+                                android:text="@string/select"
+                                android:textColor="@color/colorBlack"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/app_separator"
+                            android:layout_marginTop="@dimen/margin_10"
+                            android:layout_marginBottom="@dimen/margin_5"
+                            android:background="@color/translucent"
+                            android:visibility="gone" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/margin_5"
+                            android:animateLayoutChanges="true"
+                            android:background="@color/colorWhite"
+                            android:elevation="@dimen/margin_3"
+                            android:orientation="vertical"
+                            android:paddingLeft="@dimen/margin_10"
+                            android:paddingRight="@dimen/margin_10">
+
+                            <TextView
+                                android:id="@+id/tv_select_cabType"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat_semibold"
+                                android:textSize="@dimen/_12sdp"
+                                android:layout_width="match_parent"
+                                android:layout_marginStart="@dimen/margin_30"
+                                android:layout_marginTop="@dimen/margin_15"
+                                android:layout_marginEnd="@dimen/margin_10"
+                                android:gravity="center_vertical"
+                                android:paddingTop="@dimen/margin_2"
+                                android:paddingBottom="@dimen/margin_5"
+                                android:text="@string/choose_cab_type"
+                                android:textAllCaps="false"
+                                android:textColor="@color/colorBlack"
+                                android:textStyle="normal"
+                                android:visibility="visible" />
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/rv_cabType"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="@dimen/margin_20"
+                                android:layout_marginTop="@dimen/margin_5"
+                                android:layout_marginEnd="@dimen/margin_15"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/error_layout"
+            layout="@layout/error_layout" />
+
+    </RelativeLayout>
+</layout>

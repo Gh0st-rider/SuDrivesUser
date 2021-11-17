@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_ll_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/failure_dialog"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivCross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="@dimen/margin_5"
+            android:src="@drawable/close_24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+
+            <LinearLayout
+                android:id="@+id/ll_EnableEmergencyMode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/margin_35"
+                    android:layout_height="@dimen/margin_35"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:src="@drawable/emergency_24dp" />
+
+                <TextView
+                    android:id="@+id/tvEnableEmergencyMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_10"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/padding_5"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:text="@string/enable_emergency_mode"
+                    android:textColor="@color/colorRed"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/app_separator"
+                android:layout_height="match_parent"
+                android:background="@color/colorGrayView" />
+
+
+            <LinearLayout
+                android:id="@+id/ll_SendRideStatus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/margin_35"
+                    android:layout_height="@dimen/margin_35"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:src="@drawable/share_ride_24dp" />
+
+                <TextView
+                    android:id="@+id/tvSendRideStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/margin_10"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center"
+                    android:paddingTop="@dimen/padding_5"
+                    android:paddingBottom="@dimen/padding_5"
+                    android:text="@string/send_ride_status"
+                    android:textColor="@color/colorGrayDark"
+                    android:textSize="@dimen/_10sdp"
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_separator"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@color/colorGrayView" />
+
+        <LinearLayout
+            android:id="@+id/ll_call_police_emergency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/margin_35"
+                android:layout_height="@dimen/margin_35"
+                android:layout_gravity="center_vertical"
+                android:padding="@dimen/_2sdp"
+                android:src="@drawable/support" />
+
+            <TextView
+                android:id="@+id/tv_call_police"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/margin_10"
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center"
+                android:text="@string/emergency_contact"
+                android:textColor="@color/colorGrayDark"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

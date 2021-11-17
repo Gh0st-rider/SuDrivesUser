@@ -1,0 +1,576 @@
+<resources>
+    <string name="app_name">SuDrives</string>
+    <string name="title_activity_main_home">MainHomeActivity</string>
+    <string name="fb_key_hash_debug">ga0RGNYHvNM5d0SLGQfpQWAPGJ8=</string>
+    <string name="fb_key_hash_release">zY00cczs2SG28RTn1bZQvsCftvI=</string>
+
+    <string name="facebook_app_id">418594956056861</string>
+    <string name="fb_login_protocol_scheme">fb418594956056861</string>
+    <string name="google_api_keys">AIzaSyAVNsvTkS6bt2-q12RgQoL0S9g7o_VbxeQ</string>
+    <string name="direction_api_key">AIzaSyAVNsvTkS6bt2-q12RgQoL0S9g7o_VbxeQ</string>
+    <!--  <string name="direction_api_key">AIzaSyDjUNNn8S282Dw-eVJBtkZpj8kJyPv1rrU</string>-->
+    <!--<string name="direction_api_key"></string>-->
+
+    <string name="country_code">+91</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hn">Hin</string>
+    <string name="en">En</string>
+    <string name="name">Name</string>
+    <string name="mobile_no">Mobile No.</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="livetrips">Live Trip</string>
+
+    <string name="refer_n_win"><![CDATA[Refer & Win]]></string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="promotions">Promotions</string>
+    <string name="report_issue">Report Issue</string>
+    <string name="reported_issue">Reported Issue</string>
+    <string name="rate_card">Rate Card</string>
+    <string name="logout">Logout</string>
+    <string name="my_bookings">My Bookings</string>
+    <string name="booking_history">Booking History</string>
+    <string name="title_activity_home_menu">HomeMenuActivity</string>
+
+    <string name="no_internet_connection">\"No internet connection\"</string>
+
+
+    <string name="you_can_win_prizes">Invite yor Family &amp; Friends</string>
+    <string name="win_first_trip_by_refering_the_refer_code">Get Rewards and point on first trip by referring the \n referral code!</string>
+    <string name="share_and_invite">Share &amp; Invite</string>
+    <string name="your_referral_code">Your referral code</string>
+    <string name="share">Share</string>
+    <string name="share_using">Share Using</string>
+    <string name="referral_code">Referral Code</string>
+    <!--Login-->
+    <string name="welcome">Welcome!</string>
+    <string name="join_sign_in_using">Join / Sign In using</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+
+
+    <!--Register-->
+    <string name="full_name">Please enter full name</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="register">Register</string>
+    <string name="change">Change</string>
+    <string name="cancel_search_cab">Cancelling search</string>
+    <!--Verify otp-->
+    <!--  <string name="otp">Enter OTP</string>-->
+    <string name="verify">Verify</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="login">Login</string>
+    <string name="email_address">Email Address</string>
+    <string name="address">Address</string>
+    <string name="editProfile">Profile</string>
+    <string name="by_logging_in_you_are_agreed_to_our">By logging in you are agreed to our terms of services and privacy policy</string>
+    <string name="terms_of_services">terms of services</string>
+    <string name="Terms_of_services">Terms of services</string>
+    <string name="privacy_policy">privacy policy</string>
+    <string name="Privacy_policy">Privacy policy</string>
+    <string name="and">and</string>
+    <string name="here">Here</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="would_you_like_for_your_purchase_to_be_reveiwed_for_a_free">would you like for your purchase to be reviewed for a free.....................................?</string>
+    <string name="confirmation">Confirmation</string>
+
+    <!-- Error Messages On Network-->
+    <string name="error_no_con_msg">No internet connection found, please do check your network settings.</string>
+    <string name="error_no_connection">No Internet Connection</string>
+    <string name="text_settings">Check Internet Settings</string>
+    <string name="text_close">Close</string>
+    <!--for Update App-->
+    <string name="english">english</string>
+    <string name="hindi">hindi</string>
+    <string name="gps_setting">GPS is settings</string>
+    <string name="gps_is_not_enabled">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="something_went_wrong">Something went wrong, Please try again.</string>
+    <string name="x">X</string>
+
+    <string name="not_Now">Not Now</string>
+    <string name="update">Update</string>
+    <string name="app_update">Application Update!!!</string>
+
+    <string name="Please_enter_mobile_num">Please enter mobile number</string>
+    <string name="Please_enter_valid_mobile_num">Please enter valid mobile number</string>
+    <string name="location_sevice_not_active">Location Services Not Active</string>
+    <string name="please_enable_location_services_and_gps">Please enable Location Services and GPS</string>
+    <string name="please_enable_location_services_and_gps_to_continue">Please enable Location Services and GPS to continue</string>
+    <string name="storage">Storage</string>
+    <string name="camera">Camera</string>
+    <string name="location">Location</string>
+    <string name="permission_rationale_storage">Access to the storage is required for accessing images from your storage.</string>
+    <string name="permission_rationale_camera">Access to the camera is required for capturing new images.</string>
+    <string name="permission_rationale_location">Access to the location is required for showing your location on map.</string>
+    <string name="permission_denied">App requires %s permission. Please try again and grant access to use it.\nIf the permission has been permanently denied, it can be enabled from the System Settings.</string>
+    <string name="permission_required_toast">%s permission is required for app usage.</string>
+    <string name="No_Internet_Connection_Detected">No Internet Connection Detected</string>
+    <string name="This_app_needs_phone_permission">This app needs permissions, please check settings.</string>
+    <string name="grant">GRANT</string>
+    <string name="enable">Enable</string>
+
+
+    //hint text
+    <string name="email_optional">Email (Optional)</string>
+    <string name="have_a_promo_code">Have a PromoCode?</string>
+    <string name="have_a_referral_code">Have a Referral code?</string>
+    <string name="PromoCode">PromoCode</string>
+
+    <string name="English">English</string>
+    <string name="Hindi">Hindi</string>
+    <string name="Hindi_in_hindi">हिंदी</string>
+
+    //hint register
+    <string name="Please_enter_email_id">Please enter email id</string>
+    <string name="Please_enter_lname">Please enter last name</string>
+    <string name="Please_enter_full_name">Please enter full name</string>
+    <string name="Please_enter_valid_email_id">Please enter valid email id</string>
+    <string name="Please_enter_registered_email_id">Please enter registered email id</string>
+    <string name="please_accept_terms_n_comditions">Please accept terms and conditions</string>
+    <string name="title">Title</string>
+    >
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+
+
+    <!--Validation-->
+    <string name="Please_enter_otp">Please enter OTP</string>
+    <string name="Please_enter_valid_otp">Please enter valid OTP</string>
+
+    <!-- home -->
+    <string name="book_now">Book Now</string>
+    <string name="book_later">Book Later</string>
+    <string name="daily">Daily</string>
+    <string name="rental">Rental</string>
+    <string name="outstation">Outstation</string>
+    <string name="pin_location">Pickup Location</string>
+    <string name="search_drop_location">Search drop location</string>
+    <string name="surcharge">Surcharge</string>
+    <string name="booknow">Book Now</string>
+    <string name="payload">payload</string>
+    <string name="lbh">lbh</string>
+    <string name="estimated_fare">Expected Fare</string>
+
+    <string name="Please_select_gender">Please select gender</string>
+
+    <string name="are_you_sure_want_to_logout"> Are you sure, you want to logout?</string>
+    <string name="location_not_supported">Location not supported in this device</string>
+    <string name="location_not_enabled">Location not enabled!</string>
+    <string name="open_location_settings">Open location settings</string>
+    <string name="Cancel">cancel</string>
+
+    <string name="save">Save</string>
+
+    <string name="alert">Alert</string>
+    <string name="allow_asked_permission_to_make_this_work">Allow asked permissions to make this work. Click begin to proceed.</string>
+    <string name="begin">Begin</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="gallery">Gallery</string>
+    <string name="not_available">Not Available</string>
+    <string name="profile">Profile</string>
+    <string name="no_data_found">No data found</string>
+    <!--ContactUs-->
+    <string name="CallUs">Call us :</string>
+    <string name="EmailUs">Email us :</string>
+    <string name="Website">Website :</string>
+    <string name="enter_origin">Enter origin</string>
+    <string name="enter_destination">Enter destination</string>
+    <string name="status">Status</string>
+    <string name="date">Date</string>
+    <string name="pick_up_date">Pick-up Date</string>
+    <string name="amount">Amount</string>
+    <string name="booking_id">Trip Id :</string>
+    <string name="truck_type">Vehicle type</string>
+    <string name="Please_select_the_options">Please select the options</string>
+    <string name="time">Time</string>
+    <string name="booking_details">Booking details</string>
+    <string name="cancel_bookings">Cancel bookings</string>
+    <string name="cancel_booking">Cancel Booking</string>
+
+    <!-- Promotions -->
+    <string name="valid_until">Valid until</string>
+    <string name="can_be_used">Can be used</string>
+    <string name="times">time(s)</string>
+    <string name="rides">Rides</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_cras_sit_amet_elementum_lectus_cras_pellentesque_mi_sapien_sit_amet_tristique_turpis_aliquet_sed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet elementum lectus. Cras pellentesque mi sapien, sit amet tristique turpis aliquet sed.</string>
+    <string name="tncapplied"><![CDATA[*T&C Applied]]></string>
+    <string name="today">Today</string>
+    <!--  Booking detail-->
+    <string name="fare_break_up">Fare Break-up</string>
+    <string name="cancellation_charger">Cancellation Charges :</string>
+    <string name="cancellation_charges">Cancellation Charges</string>
+    <string name="total_charges">Total Charges :</string>
+    <string name="vehical_name">Vehicle Name</string>
+    <string name="pick_up">Pick-up</string>
+    <string name="drop_off">Drop-off</string>
+    <string name="booking_Details">Booking Details</string>
+    <string name="accepted">Accepted</string>
+    <string name="trip_start">Trip Start</string>
+    <string name="completed">Completed</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="pending">Pending</string>
+    <string name="trip_id">Trip Id</string>
+    <string name="upcoming_bookings">Upcoming Bookings</string>
+    <string name="past_bookings">Past Bookings</string>
+    <!--   Cancel order-->
+    <string name="error_msg_enter_comment">Please enter comment</string>
+    <string name="any_comment">Comment</string>
+    <string name="submit">Submit</string>
+    <string name="Please_select_the_atleast_1_option">Please select at least one option</string>
+
+
+    <!-- Notification -->
+    <string name="notifications">Notifications</string>
+    <string name="clear_all">Clear</string>
+    <string name="are_you_sure_you_want_to_clear_all_notification">Are you sure, you want to clear all notification?</string>
+    <string name="your_booking_Successful">Your booking is successful</string>
+    <string name="description">Description</string>
+
+    <!--Confirm Pickup-->
+
+    <string name="you_are_near_a_pickup_spot">You are near a pickup spot</string>
+
+    <string name="card">Card</string>
+    <string name="cash">Cash</string>
+
+    <string name="payment_options">Payment options</string>
+    <string name="confirm_pickup">Confirm Pickup</string>
+    <string name="cancel_order">Cancel Trip</string>
+    <string name="googleplay_service_not_avalaible">Google play service not available</string>
+    <string name="your_ride_has_been_scheduled"><b>Ride Scheduled</b> \n\nYour ride has been scheduled. Driver details will be share 15 min before your pickup time. \n\n\nThank you for choosing us!</string>
+    <string name="coming_soon">Coming soon</string>
+
+    <string name="no_just_exit">No, Just Exit</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="no_cab_available">No Cab Available</string>
+    <string name="no_auto_available">No Auto Available</string>
+    <string name="please_enter_pick_up_location">Please enter pick-up location</string>
+
+    <string name="fare_detail">Fare Details</string>
+
+    <!--    Rating-->
+    <string name="tell_us_something">Tell us something!</string>
+    <string name="rate_the_driver">Rate the Driver</string>
+    <string name="share_your_trip_experience_with_us">Share your trip experience with us!</string>
+    <string name="please_add_rating">Please Add Rating</string>
+    <string name="share_your_experience">Share your experience</string>
+    <string name="trip_complete">Trip Completed</string>
+    <!-- <string name="to">To</string>-->
+    <string name="booking_ID">Booking Id</string>
+    <string name="done">Done</string>
+    <string name="payable">Payable</string>
+    <string name="settings">settings</string>
+    <string name="please_enter_drop_off_location">Please enter drop-off location</string>
+
+    <!--   Live Trip-->
+    <string name="call_driver">Call Driver</string>
+    <string name="vehical_num">Vehicle No</string>
+    <string name="eta">Expected Time</string>
+    <string name="ett">Expected Time</string>
+    <string name="otp_">OTP:</string>
+    <string name="otp">OTP</string>
+    <string name="total_fare">Total Fare</string>
+    <string name="total_distance">Total Distance</string>
+    <string name="livetrip">Live Trip</string>
+    <string name="ride_scheduled">Ride Scheduled</string>
+
+    <!--ReportIssue-->
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="Optional"> (Optional)</string>
+    <string name="Upload_a_picture">Upload a picture</string>
+    <string name="please_explain_your_issue_here">Please explain your issue here...</string>
+    <string name="Comments_Questions">Explain Issue</string>
+    <string name="topic">Select Reason</string>
+    <string name="select">Select</string>
+    <string name="please_select_topic">Please select Topic</string>
+    <string name="Please_enter_comment">Please enter comment</string>
+    <string name="transaction_id">Transaction Id</string>
+    <string name="order_id">Order ID</string>
+    <string name="report_issue_summary">Report Issue Summary</string>
+    <string name="refund">Refund</string>
+
+    <!--  Help Dialog-->
+    <string name="enable_emergency_mode">Enable \nEmergency Mode</string>
+    <string name="send_ride_status">Share your Ride status\n with Family</string>
+    <string name="send_ride_status1">Send Ride Status</string>
+
+    <string name="emergency_contact">Su Drive Support ?</string>
+
+    <string name="authentication_failed">Authentication failed</string>
+    <string name="error_in_loading_page">Error in loading page</string>
+    <string name="transaction_cancelled">Transaction Cancelled</string>
+    <string name="ongoing">OnGoing Trip</string>
+
+    <!--  Send  Ride Status-->
+    <string name="add_emergency_contacts">Add Emergency Contacts</string>
+    <string name="or_send_directly">Or Send Directly</string>
+    <string name="contacts">Contacts</string>
+    <string name="type_a_name_or_mobile_number">Type a name or mobile number</string>
+    <string name="add_contact">Add Contact</string>
+
+    <string name="getting_location">Getting Location</string>
+    <string name="please_wait">Please wait</string>
+    <string name="send">Send</string>
+
+    <!-- thank you screen-->
+    <string name="thank_you">Thank you</string>
+    <string name="please_visit_again">Please visit again!</string>
+
+    <string name="call_to">Call To</string>
+    <string name="call">Call</string>
+    <string name="sorry_contact_number_not_available">Sorry! contact number no available</string>
+    <string name="gmail_app_is_not_installed">G-Mail App is not installed</string>
+
+    <!-- Terms Of Use -->
+
+
+    <string name="copy_code">Copy Code</string>
+    <string name="referral">Referral</string>
+    <string name="copied_to_clipboard">Coupon copied to clipboard</string>
+    <string name="copied">It will be auto applied on your next ride.</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="coupon_code">Coupon Code</string>
+
+    <string name="terms_and_condition"><![CDATA[Terms & Conditions]]></string>
+
+    <string name="cancel_booking_text">Cancel Booking</string>
+    <string name="Searching">Searching</string>
+    <string name="are_you_sure_you_want_to_cancel_the_booking">Are you sure, you want to cancel the booking?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="auto_cancelled">Auto Cancelled</string>
+    <string name="please_select_contact_number">Please select contact number</string>
+    <string name="please_add_contact_number">Please add contact number</string>
+    <string name="no_trips">No trips</string>
+    <string name="no_ride_available_to_send_ride_status">No ride available to send ride status</string>
+    <string name="no_ride_started_to_send_ride_status">No ride started to send ride status</string>
+
+    <string name="use_code">Use Code</string>
+    <string name="you_can_select_max_3_contacts">You can only select max 3 contacts</string>
+    <string name="unable_to_fetch_contact_list">Unable to fetch contact list</string>
+    <string name="press_again_to_exit">Please press again to exit.</string>
+    <string name="please_select_valid_time">Please select valid time</string>
+    <string name="booking_cant_be_done">Booking can\'t be done before 4 hours prior if you are choosing book later.</string>
+    <string name="booking_cant_be_done_before_1_hour">Booking can\'t be done before 3 hours prior.</string>
+    <string name="booking_cant_be_done_before_2_hour">Booking can be done after 1 hours from leave time.</string>
+    <string name="fare">Fare</string>
+
+
+    <!--confirm your booking-->
+    <string name="vehicle_details">Vehicle Details</string>
+    <string name="leave_on">Leave on</string>
+    <string name="one_way_trip_of_about">One way trip of about</string>
+    <string name="round_trip_of_about">Round trip of about</string>
+
+    <string name="Estimated_fare">Expected \nFare</string>
+    <string name="hide_fare_detalis">Hide Fare Details</string>
+    <string name="base_fare">Base Fare</string>
+    <string name="confirm_your_booking">Confirm Your Booking</string>
+    <string name="confirm_book"><![CDATA[Confirm & Book]]></string>
+
+    <string name="taxes_fees"><![CDATA[Taxes & Fees]]></string>
+    <string name="driver_allowance">Driver Allowance</string>
+    <string name="see_fare_details">See Fare Details</string>
+
+    <!--Refund-->
+    <string name="type_here">Type here</string>
+    <string name="transaction_amount">Transaction Amount</string>
+    <string name="comment_your_issue">Write your issue...</string>
+    <string name="refund_request">Refund Request</string>
+    <string name="please_enter_order_id">Please enter trip id</string>
+    <string name="please_enter_transaction_id">Please enter transaction id</string>
+    <string name="please_select_date">Please select date</string>
+    <string name="please_transaction_amount">Please enter transaction amount</string>
+
+
+    <string name="Business_Usage">Business_Usage</string> <!--//Value of Usage do not change in hindi( value to post on server)-->
+    <string name="Personal_Usage">Personal_Usage</string> <!--//Value of Usage do not change in hindi( value to post on server)-->
+
+    <string name="failure">Failure</string>
+    <string name="you_have_already_used_this_coupon">You have already used this coupon</string>
+    <string name="ride_fare">Ride Fare :</string>
+    <string name="discount_price">Discount Price :</string>
+    <string name="please_login_to_continue">Please login to continue</string>
+    <string name="ride_accepted">Ride accepted</string>
+
+    <string name="your_ride_is_on_its_way">Your ride is on the way.</string>
+    <string name="wallet">Wallet</string>
+
+    <string name="please_choose_payment_option_to_continue">Please choose payment option "Card/Cash/Wallet" to continue</string>
+    <string name="continue_">Continue</string>
+    <string name="continue_in_both_lang">Continue / आगे बढ़ें</string>
+
+    <string name="pickup_location">Pickup Location</string>
+    <string name="select_package">Select Package</string>
+    <string name="choose_cab_type">Choose a Cab Type</string>
+    <string name="accept_and_confirm"><![CDATA[Accept & Confirm]]></string>
+    <string name="rent_a_car">Rent a Car</string>
+    <string name="select_date_and_time">Select Date and Time</string>
+
+    <string name="one_way">One Way</string>
+    <string name="round_trip">Round Trip</string>
+    <string name="return_by">Return by</string>
+    <string name="book_your_outstation_ride">Book your Outstation ride</string>
+    <string name="finding_a_ride">Finding a ride</string>
+    <string name="searching_for_rentals">Searching for Rentals...</string>
+    <string name="taxes">Taxes</string>
+    <string name="please_select_leave_date_first">Please select leave date first</string>
+    <string name="selected_package">Selected Package</string>
+    <string name="please_select_leave_date">Please select leave date</string>
+    <string name="please_select_return_date">Please select return date</string>
+    <string name="please_select_package">Please select package/Cab type</string>
+    <string name="please_select_cab_type">Please select cab type</string>
+    <string name="night_charges">Night Charges</string>
+
+    <string name="na">NA</string>
+    <string name="download_invoice">Download</string>
+    <string name="email_invoice">Email Invoice</string>
+    <string name="sorry_no_file_attached">Sorry! No file attached</string>
+    <string name="are_you_sure_you_want_to_email_invoice">Are you sure, you want to Email invoice?</string>
+    <string name="no_email_id_available">No Email available</string>
+    <string name="sgst_tax">SGST :</string>
+    <string name="cgst_tax">CGST :</string>
+    <string name="searching_for_drivers">Searching for </string>
+    <string name="auto">auto</string>
+    <string name="cabs">cabs</string>
+    <string name="permission_needed_to_continue">Needed required permissions to continue</string>
+    <string name="setup_payment">Payment Mode</string>
+    <string name="estimated_cash_to_be_paid">Estimated amount to be Paid</string>
+    <string name="waiting_fee">3/min waiting fee applies after 3 min of arrival till trip starts.</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="booking_confirmed">Booking Confirmed</string>
+    <string name="Please_enter_gst_no">Please enter GSTN</string>
+    <string name="fetching_estimated_fare">Please re-select vehicle type or update your address, to fetch estimated fare</string>
+    <string name="please_select_vehicle_type">Please select vehicle type</string>
+    <string name="server_error">Server Error</string>
+    <string name="booking_not_accepted_by_driver">Booking not accepted by driver</string>
+    <string name="text_close_app">Close App</string>
+    <string name="payment_failed">Payment failed</string>
+    <string name="txt_invalid_date">Invalid Return date</string>
+    <string name="txt_invalid_time">Invalid time</string>
+    <string name="install_app">Install App</string>
+    <string name="install">Install</string>
+    <string name="app_is_not_currently_installed">App is not currently installed, Would you like to install it?</string>
+    <string name="oops_you_dont_have_any_live_trip">Oops! you don\'t have any live trip.</string>
+    <string name="resend_otp_in">Send SMS again in </string>
+    <string name="sec">sec</string>
+    <string name="otp_sent">OTP Sent</string>
+    <string name="txt_choose_language">Choose Language / भाषा चुनें</string>
+    <string name="txt_you_can_change_the_language_later">You can change the language later from "Menu"</string>
+    <string name="select_state">Select State</string>
+
+    <string name="select_city">Select City</string>
+    <string name="Please_select_state">Please select state</string>
+    <string name="Please_select_city">Please select city</string>
+
+    <string name="Please_enter_email">Enter email-id</string>
+
+
+    <string name="state">State</string>
+    <string name="city">City</string>
+
+
+    <string name="toolbar_my_booking">My Bookings</string>
+
+    <string name="no_past_booking">Sorry ! no past booking history</string>
+    <string name="no_upcoming_booking">Sorry ! no upcoming booking \n Please take the ride first</string>
+
+    <string name="toolbar_wallet">My Wallet</string>
+    <string name="my_wallet">My Wallet Balance</string>
+    <string name="add_money_to_wallet">Add Money to Wallet</string>
+
+
+    <string name="my_transactions">My Transactions</string>
+
+    <string name="debit_card">Debit Card</string>
+
+    <string name="credit_card">Credit Card</string>
+
+    <string name="no_transaction">Sorry ! no transaction available</string>
+
+    <string name="toolbar_payment">Add Money to Wallet</string>
+
+    <string name="enter_amount">Enter Amount</string>
+
+    <string name="have_a_promocode">Have a PromoCode?</string>
+
+
+    <string name="credit_debit_card">Credit/Debit Card</string>
+
+    <string name="card_no">Card no.</string>
+
+    <string name="cvv_security_code">CVV/Security Code</string>
+
+
+    <string name="save_this_card_for_faster_checkout">Save and pay via card</string>
+
+    <string name="add_money">Add Money</string>
+
+    <string name="other_payment_options">Other Payment Options :</string>
+
+    <string name="saved_cards">Saved Cards</string>
+    <string name="paypal">PayPal</string>
+    <string name="internet_banking">Internet Banking</string>
+
+
+    <string name="bt_card_number_required">Card number is required</string>
+    <string name="bt_card_number_invalid">Card number is invalid</string>
+
+
+    <string name="bt_cvv">CVV</string>
+    <string name="bt_cvc">CVC</string>
+    <string name="bt_cid">CID</string>
+    <string name="bt_cvn">CVN</string>
+
+
+    <string name="toolbar_about">About Us</string>
+    <string name="toolbar_contact">Contact Us</string>
+    <string name="toolbar_coupon">Available Coupons</string>
+    <string name="toolbar_discount">Discounts on Booking</string>
+    <string name="toolbar_promotion">Promotion</string>
+    <string name="toolbar_report_list">Your Reports Issue List</string>
+
+    <string name="no_coupon">Sorry ! no offer coupons available</string>
+
+    <string name="no_promo">Sorry ! no promo offer available</string>
+
+    <string name="are_your_sure_you_want_to_exit">Are you sure, you want to exit?</string>
+
+    <string name="business_usage">Business User</string>
+    <string name="personal_usage">Personal User</string>
+
+    <string name="nav_offers">Offers</string>
+
+    <string name="your_trip_has_been_auto_cancel">Your trip has been auto cancel.</string>
+
+    <string name="click_to_read">Click to read our Policy.</string>
+
+    <string name="text_home">Home Address</string>
+    <string name="text_office">Office Address</string>
+
+    <string name="hint_home">Set home location</string>
+    <string name="hint_office">Set office location</string>
+
+    <string name="recent_search">Recent Search</string>
+
+    <string name="login_welcome">"Sudrives’s prime motto is “More Savings for Riders”. Our policies are very flexible and
+welcoming for the users."</string>
+    <string name="sudrivesnum"><u>+91 76830 55008</u>.</string>
+    <string name="outstationBook">Are you trying to book an Outstation Ride?
+Yes we are accepting Outstation rides offline.</string>
+    <string name="justcallus">Just Call us at</string>
+    
+    
+</resources>

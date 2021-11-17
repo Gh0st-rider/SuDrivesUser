@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_top" >
+
+        <!-- Divider will appear above this item -->
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_24dp"
+            android:title="@string/home" />
+
+
+      <!--  <item
+            android:id="@+id/nav_livetrips"
+            android:icon="@drawable/location_24dp"
+            android:title="@string/livetrips" />-->
+
+        <item
+            android:id="@+id/nav_bookings"
+            android:icon="@drawable/history_24dp"
+            android:title="@string/my_bookings" />
+
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/wallet_gray_24dp"
+            android:title="@string/wallet" />
+
+    </group>
+
+
+
+    <group
+        android:id="@+id/menu_center"
+        android:checkableBehavior="none">
+
+
+
+        <item
+            android:id="@+id/nav_offers"
+            android:icon="@drawable/discount_24dp"
+            android:title="@string/nav_offers" />
+
+
+      <!--  <item
+            android:id="@+id/nav_promotions"
+            android:icon="@drawable/pramotion_24dp"
+            android:title="@string/promotions" />-->
+
+
+        <item
+            android:id="@+id/nav_refernwin"
+            android:icon="@drawable/share_24dp"
+            android:title="@string/refer_n_win" />
+
+
+
+    </group>
+
+
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+
+
+        <item
+            android:id="@+id/nav_report_issue"
+            android:icon="@drawable/report_24dp"
+            android:title="@string/reported_issue" />
+
+
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/contact_us_24dp"
+            android:title="@string/contact_us" />
+
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/about_24dp"
+            android:title="@string/about_us" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_24dp"
+            android:title="@string/logout" />
+
+
+    </group>
+</menu>

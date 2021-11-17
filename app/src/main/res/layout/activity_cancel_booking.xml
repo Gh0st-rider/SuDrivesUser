@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+
+    <RelativeLayout
+        android:id="@+id/rlMainReport"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:fitsSystemWindows="true"
+        android:paddingBottom="@dimen/margin_15">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/outerToolbar"
+                layout="@layout/tool_bar" />
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/outerToolbar"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:id="@+id/llCancelOrder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorWhite"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding_10">
+
+
+                    <LinearLayout
+                        android:id="@+id/llMain"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/margin_10"
+                        android:layout_marginRight="@dimen/margin_10"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_5"
+                            android:orientation="vertical">
+
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/rv_cancel_order"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/margin_10"
+                                android:layout_marginTop="@dimen/margin_5"
+                                android:layout_marginRight="@dimen/margin_5"/>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:layout_marginTop="@dimen/margin_40"
+                            android:orientation="vertical">
+
+
+                            <EditText
+                                android:id="@+id/et_comment"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/grey_rectangle_border"
+                                android:gravity="top"
+                                android:hint="@string/any_comment"
+                                android:imeOptions="actionDone"
+                                android:inputType="textMultiLine"
+                                android:maxLength="100"
+                                android:paddingLeft="25dp"
+                                android:paddingTop="@dimen/padding_10"
+                                android:paddingRight="@dimen/padding_10"
+                                android:paddingBottom="@dimen/padding_10"
+                                android:textColor="@color/colorGrayDark"
+                                android:textColorHint="@color/colorGrayLight"
+
+                                />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_30"
+                            android:layout_marginBottom="@dimen/margin_10"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/tv_submit"
+                                android:layout_width="@dimen/_200sdp"
+                                android:layout_height="@dimen/_35sdp"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@drawable/button_shap"
+                                android:stateListAnimator="@null"
+                                android:text="@string/submit"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/montserrat_semibold"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/_12sdp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvNoDataFound"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:fontFamily="@font/montserrat_regular"
+                        android:textSize="@dimen/_12sdp"
+                        android:padding="@dimen/margin_15"
+                        android:text="@string/no_data_found"
+                        android:textColor="@color/colorGrayDark"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <include
+
+            android:id="@+id/error_layout"
+            layout="@layout/error_layout" />
+    </RelativeLayout>
+
+</layout>
